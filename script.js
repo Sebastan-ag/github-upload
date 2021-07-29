@@ -28,7 +28,8 @@ tileMap = {
         6, 6, 6, 0, 0, 0, 0, 0, 6, 6, 6, 6
     ], 
 }
-console.log("ye")
+
+
 tileMap.image.onload = function() {
 for (let i = 0; i < tileMap.map.length; i++) {
 console.log("ye");
