@@ -31,6 +31,7 @@ tileMap = {
 
 
 tileMap.image.onload = function() {
+    tileMap.image.src = 'Tile Map.png';
 for (let i = 0; i < tileMap.map.length; i++) {
 console.log("ye");
 }
