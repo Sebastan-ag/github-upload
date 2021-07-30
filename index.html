@@ -7,14 +7,18 @@
     <title>Tile Map</title>
 </head>
 <body>
-    <canvas id="canvas"></canvas>
+    <canvas id="can0"></canvas>
+    <canvas id ="can1"></canvas>
     <script src="script.js"></script>
     <style src="style.css"></style>
     <style>
-        #canvas {
-    position: fixed;
-    background-image: url("Background.png");
-    background-size: 768 512;
+        canvas {
+            position: fixed;
+        }
+        #can1 {
+    background-image: url("Background.png") ;
+    background-size: auto 768px;
+    background-repeat: repeat-x;
 }
 body {
     background-color: red;
