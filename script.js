@@ -45,7 +45,6 @@ tileMap.image.onload = function() {
         var destination_x = (i % tileMap.collums) * 96;
         var destination_y = Math.floor(i / tileMap.collums) * 96;
         tm.drawImage(tileMap.image, source_x, source_y, 16, 16, destination_x, destination_y, 96, 96);
-        console.log(tileMap.map[i])
     }
 }
 
